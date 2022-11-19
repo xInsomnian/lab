@@ -24,8 +24,8 @@ class Account:
     def withdraw(self, amount: float) -> bool:
         """
         This is the method for withdrawls
-        :param amount: the amount soemone wants to take out of the account
-        :return: True if it works and false if it doesnt because of a negative number or inssuficient funds
+        :param amount: the amount someone wants to take out of the account
+        :return: True if it works and false if it does not because of a negative number or inssuficient funds
         """
 
         if 0 < amount <= self.__account_balance:
