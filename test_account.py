@@ -14,6 +14,6 @@ class Test:
         assert self.a1.get_name() == 'Joe'
         assert self.a2.get_name() == 'Jane'
 
-    def test_deposit():
+    def test_deposit(self):
 
-    def test_withdraw():
+    def test_withdraw(self):
